@@ -1,4 +1,4 @@
-# Quick Party Games
+# Quick party games
 
 Discover fun online games to play together with friends, family, or team.
 [View Live](https://carly-ux.github.io/quickpartygames/)
@@ -7,7 +7,7 @@ Discover fun online games to play together with friends, family, or team.
 
 Quick party games is a game discovery platform that helps groups find and access social games.
 
-## Tech Stack
+## Tech stack
 
 - **Frontend:** React + Vite
 - **Styling:** Tailwind CSS
@@ -15,14 +15,14 @@ Quick party games is a game discovery platform that helps groups find and access
 - **Version Control:** Git + GitHub
 - **Deployment:** GitHub Pages
 
-## Workflow & Learning
+## Workflow and learning
 
 This project served as a learning case study in:
 - **Design-to-Code:** Extracting design specs from Figma and implementing as React components
 - **Git Workflow:** Feature branching, pull requests, and commit practices
 - **Deployment:** CI/CD with GitHub Actions and GitHub Pages
 
-## What's Next
+## What's next
 
 - Add more games
 - Update design UI/UX
