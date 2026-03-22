@@ -1,26 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;700;900&display=swap');
 
 /* ── Theme: Light ── */
 .light {
   --page-bg: #fefce8;
-  --title-color: #000000;
+  --title-color: #1E1E1E;
   --title-shadow: 4px 4px 0px 0px #ff0000;
-  --subtitle-color: #000000;
+  --subtitle-color: #1E1E1E;
   --btn-bg: #fb2c36;
-  --btn-border: #000000;
-  --btn-shadow: 4px 4px 0px 0px #000000;
-  --btn-text: #ffffff;
+  --btn-border: #1E1E1E;
+  --btn-shadow: 4px 4px 0px 0px #1E1E1E;
+  --btn-text: #FEFEFE;
   --card-bg: #fefce8;
-  --card-border: #000000;
-  --card-shadow: 8px 8px 0px 0px #000000;
-  --card-shadow-hover: 12px 12px 0px 0px #000000;
-  --card-img-border: #000000;
-  --card-title: #000000;
-  --card-meta: #000000;
-  --card-desc: #000000;
+  --card-border: #1E1E1E;
+  --card-shadow: 8px 8px 0px 0px #1E1E1E;
+  --card-shadow-hover: 12px 12px 0px 0px #1E1E1E;
+  --card-img-border: #1E1E1E;
+  --card-title: #1E1E1E;
+  --card-meta: #1E1E1E;
+  --card-desc: #1E1E1E;
   --badge-bg: #2b7fff;
-  --badge-border: #000000;
-  --badge-text: #ffffff;
+  --badge-border: #1E1E1E;
+  --badge-text: #FEFEFE;
 }
 
 /* ── Theme: Dark ── */
@@ -50,7 +50,7 @@
 .page {
   min-height: 100vh;
   background: var(--page-bg);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Instrument Sans', sans-serif;
 }
 
 .container {
@@ -104,7 +104,7 @@
   align-items: center;
   gap: 8px;
   padding: 6px 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Instrument Sans', sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
@@ -133,7 +133,7 @@
 .games-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 36px;
 }
 
 /* ── Game card ── */
@@ -190,7 +190,7 @@
 }
 
 .card-title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: -0.31px;
@@ -233,13 +233,13 @@
 }
 
 .card-description {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: -0.15px;
   color: var(--card-desc);
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   margin: 0;
@@ -248,7 +248,7 @@
 .card-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 4px;
   margin-top: auto;
 }
 
@@ -259,7 +259,7 @@
   padding: 4px 10px;
   background: var(--badge-bg);
   border: 2px solid var(--badge-border);
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: 12px;
   font-weight: 700;
   line-height: 16px;
